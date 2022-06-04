@@ -1,0 +1,9 @@
+file = open("groups.csv", "r", newline='', encoding='utf-16')
+lines=file.readlines()
+lines=lines[:-1]
+file.close()
+
+file = open("groups.csv", "w", newline='', encoding='utf-16')
+cWriter = csv.writer(file, delimiter=',')
+for line in lines:
+    cWriter.writerow(line)

@@ -1,0 +1,7 @@
+https://oauth.vk.com/authorize?client_id=8008208&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=friends,offline&response_type=token&v=5.95
+
+6e37a7333384dbc076237c9ac4b8b045cd6be48ec01a1a0ccb54e6614f23123847a38cb5188da908e3b9a
+
+491398f8beb499f928d26099c8b9c7805e6926d1a08087a66adf41cf2daeca8be997f33db0454f7bd516a
+
+keytool -exportcert -alias androiddebugkey -keystore C:\Users\oqly\.android\debug.keystore -list -v
